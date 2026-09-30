@@ -11,7 +11,7 @@ Input: numbers = [2,4,6,8,10]
 Output: {"even":5,"negative":0,"odd":0,"positive":5} */}
 
 function countNumberProperties(numbers) {
-  // TODO: Implement this function
+  
   let even = 0, odd = 0, positive = 0, negative = 0;
   for (let number of numbers){
     if(number % 2 === 0){
